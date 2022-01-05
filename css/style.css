@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.header{
+    background-color:skyblue;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.row{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex: 2.5;
+    background-color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    padding-top: 35px;
+}
+
+.location, .options{
+    display: flex;
+    flex-direction: row;
+}
+
+#mapIcon, #editIcon{    
+    height: 15px;
+    width: auto;
+    margin-right: 10px;
+}
+
+#userIcon{
+    height: 100px;
+    width: auto;
+    margin-left: 20px;
+    position: relative;
+    top: 35px;
+}
